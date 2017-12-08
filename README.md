@@ -10,10 +10,11 @@
 	3. build.gradle里添加json解析，cup类型的.so库
 ## 3.  开发步骤：  
 ### 1. 首先下载sdk语音听写，因为appid不同所以必须自己账号重新下载。
-### 2. 把解压的sdk添加到msc.jar包导入到libs目录下。
-###3. 把sdk包下的素材assets文件添加到main目录下。
-###4. 创建jnilibs文件，把sdk里libs里其它文件都放进去。
-###5. 配置文件添加权限  
+
+### 2. 把解压的sdk添加到msc.jar包导入到libs目录下。  
+### 3. 把sdk包下的素材assets文件添加到main目录下。  
+### 4. 创建jnilibs文件，把sdk里libs里其它文件都放进去。  
+### 5. 配置文件添加权限    
 	
 	 <!--连接网络权限，用于执行云端语音能力 -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -30,7 +31,7 @@
     <!--读取联系人权限，上传联系人需要用到此权限 -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     
-###6. build.gradle里添加
+### 6. build.gradle里添加
 	1.添加json解析：
 	compile 'com.alibaba:fastjson:1.2.8'
 	2.选择要添加的对应cpu类型的.so库
