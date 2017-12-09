@@ -11,10 +11,10 @@
 ## 3.  开发步骤：  
 ### 1. 首先下载sdk语音听写，因为appid不同所以必须自己账号重新下载。
 
-### 2. 把解压的sdk添加到msc.jar包导入到libs目录下。  
+### 2. 把解压的sdk里的msc.jar包导入到libs目录下。  
 ### 3. 把sdk包下的素材assets文件添加到main目录下。  
-### 4. 创建jnilibs文件，把sdk里libs里其它文件都放进去。  
-### 5. 配置文件添加权限    
+### 4. 创建jnilibs文件，把sdk里libs目录下出jar包外的其它文件都放进去。 
+### 5. 配置文件添加权限   
 	
 	 <!--连接网络权限，用于执行云端语音能力 -->
     <uses-permission android:name="android.permission.INTERNET"/>
